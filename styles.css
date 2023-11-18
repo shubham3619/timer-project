@@ -1,0 +1,59 @@
+/* Basic styling - modify as per Figma design */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1D1D23;
+  }
+
+  h1 {
+    text-align: center;
+    color: #bebeff;
+    padding: 30px;
+}
+
+ /* Center the input section */
+.timer-input-section {
+  display: flex;
+  justify-content: center;
+  background-color: #34344a;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0px 200px;
+
+}
+
+.active-timer {
+  display: flex;
+  justify-content: center;
+  background-color: #34344a;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 40px 200px;
+  font-size: 45px;
+  color: #b0b0ca;
+
+}
+/* Style input fields */
+.timer-input-section input[type="number"] {
+  width: 100px; /* Adjust width as needed */
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Center the 'Start New Timer' button */
+.timer-input-section button {
+  padding: 0px 40px;
+  cursor: pointer;
+  border: none;
+  background: yellow;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.timer-input-section input[type="number"] {
+  border: none; 
+  background: none;
+  text-align: center;
+  color: white;
+  outline: none;
+  font-size: 30px;
+}
+  
